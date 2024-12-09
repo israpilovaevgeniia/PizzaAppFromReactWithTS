@@ -1,0 +1,56 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-right: 1px solid var(--separator-color);
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: var(--primary-color-text);
+}
+
+.exitBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.exitBtn img {
+    filter: invert(1);
+}
+
+.active {
+    color: var(--primary-color);
+    
+}
