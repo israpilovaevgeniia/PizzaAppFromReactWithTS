@@ -1,0 +1,32 @@
+.button {
+    border-radius: 30px;
+    padding: 8px 30px;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    color: var(--white-color);
+    transition: .3s;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.primary:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.large {
+    font-size: 16px;
+    padding: 20px 60px;
+    text-transform: uppercase;
+}
+
+.small {
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 30px;
+}

@@ -1,0 +1,28 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label {
+    font-size: 24px;
+    color: var(--secondary-text-color);
+}
+
+.input {
+    width: 100%;
+    border: 1px solid var(--separator-color);
+    border-radius: 4px;
+    padding: 20px 10px;
+    font-size: 24px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .input:focus {
+    border-color: var(--secondary-text-color);
+    outline: none;
+  }
+
+  .invalid {
+    border-color: red;
+  }
