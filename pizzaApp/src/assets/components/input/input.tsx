@@ -14,6 +14,7 @@ const Input = forwardRef<HTMLInputElement, IInput> (
                 className={cn(styles.input, className, {
                     [styles.invalid]: !isValid,
                 })}
+                type="text"
                 {...props}
                 />
             </div>

@@ -42,7 +42,7 @@ function Layout () {
                     <span>Выйти</span>
                 </Button>
             </div>
-            <div>
+            <div className={cn(styles.content)}>
                 <Outlet/>
             </div>
         </div> 
