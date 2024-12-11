@@ -1,0 +1,81 @@
+.link {
+    text-decoration: none;
+    color: var(--primary-color-text);
+}
+
+.card {
+    background-color: var(--white-color);
+    box-shadow: 10px 10px 30px 5px rgb(211, 209, 216);
+    width: 400px;
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 30px 30px 40px 20px rgb(211, 209, 216);
+}
+
+.head {
+    position: relative;
+    min-height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.price {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: var(--white-color);
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.rating {
+    position: absolute;
+    bottom: -12px;
+    left: 15px;
+    background-color: var(--white-color);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.addToCardBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.addToCardBtn:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.addToCardBtn img {
+    filter: invert(1);
+}
+
+.footer {
+    padding: 15px;
+}
+
+.title {
+    color: var(--primary-color-text);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.desc {
+    color: var(--primary-color-text);
+    font-size: 14px;
+    font-weight: 400;
+}
