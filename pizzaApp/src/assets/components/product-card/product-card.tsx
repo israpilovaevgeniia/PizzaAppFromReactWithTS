@@ -7,10 +7,17 @@ const cartIcon = "src/assets/shopping-cart.png";
 const starIcon = "src/assets/star.png"
 
 
-function ProductCard ({className, title, desc, price, rating, id, img, ...props}: IProductCardProps) {
+function ProductCard ({className, name, desc, price, rating, id, img, ...props}: IProductCardProps) {
     return(
-        <Link className={cn(styles.link)} to={"/"}>
-            <div className={cn(styles.card, className)} id={id.toString()} {...props}>
+        <Link 
+         className={cn(styles.link)} 
+         to={`/product/${id}`}
+        >
+            <div 
+             className={cn(styles.card, className)} 
+             id={id.toString()} 
+             {...props}
+            >
                 <div 
                   className={cn(styles.head)} 
                   style={{backgroundImage: `url(${img})`}}
@@ -28,7 +35,7 @@ function ProductCard ({className, title, desc, price, rating, id, img, ...props}
                 </div>
                 <div className={cn(styles.footer)}>
                     <div className={cn(styles.title)}>
-                        { title }
+                        { name }
                     </div>
                     <div className={cn(styles.desc)}>
                         { desc }

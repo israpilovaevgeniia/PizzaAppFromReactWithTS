@@ -1,7 +1,7 @@
 import { HTMLAttributes } from "react";
 
 interface IProductCardProps extends Omit<HTMLAttributes<HTMLDivElement>, "id"> {
-    title: string;
+    name: string;
     desc: string;
     price: number;
     rating: number;

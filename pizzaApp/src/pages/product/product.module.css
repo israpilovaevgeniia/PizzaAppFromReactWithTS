@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    margin-top: 30px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.arrowBtn {
+    margin-right: 40px;
+    background-color: var(--white-color);
+    border: var(--separator-color);
+    padding: 5px 10px;
+}
+
+.arrowBtn:hover {
+    background-color: var(--secondary-text-color);
+}
+
+.title {
+    margin-right: 400px;
+    font-size: 32px;
+}
+
+.cartProductBtn {
+    padding: 10px 20px;
+}
+
+.cartProductBtn img {
+    filter: invert(1);
+}
+
+.cartProductBtn span {
+    margin-left: 10px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.imgWrapper img {
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+
+.information {
+    margin-top: 40px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.text span {
+    margin-left: 30px;
+}
+
+.line {
+    height: 2px;
+    background-color: var(--separator-color);
+    margin-bottom: 20px;
+}
+
+.ingredients {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--secondary-text-color); 
+    margin-bottom: 10px; 
+}
+
+.info {
+    color: var(--secondary-text-color);
+    list-style-position: inside;
+
+
+}
